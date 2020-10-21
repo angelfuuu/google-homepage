@@ -1,0 +1,97 @@
+.google-home-nav__profile-image{
+    border-radius: 50%;
+    display: block;
+    margin: -1px;
+    overflow: hidden;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
+    margin-right: 30px;
+}
+.google-home-nav__apps-icon{
+    opacity: .55;
+    padding-right: 15px;
+}
+
+.google-home-nav__links{
+    color: rgb(0,0,0,0.87);
+    text-decoration: none;
+    line-height: 24px;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    padding-right: 15px;
+}
+
+.google-home-nav{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.google-main-content__doodle{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-top: 104px;
+
+}
+
+.google-main-content__search{
+    width: 584px;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+}
+
+.google-main-content__search--magnifying-glass{
+    color: #9AA0A6;
+    height: 20px;
+    width: 20px;
+    padding-top: 12px;
+    padding-left: 12px;
+
+}
+
+.google-main-content__search--input{
+    width: 85%;
+    font-size: 16px;
+    font-family: arial, sans-serif;
+    border: none;
+    outline: 0;
+}
+
+.google-main-content__search--mic{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.google-main-content__submit-buttons--search, .google-main-content__submit-buttons--lucky{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.google-main-content__submit-buttons{
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+}
